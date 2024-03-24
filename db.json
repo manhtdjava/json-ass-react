@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Trần Đức Mạnh",
+      "password": "password1",
+      "email": "user1@example.com",
+      "address": "Hà nội",
+      "phone": "0364789779",
+      "avatar": "https://th.bing.com/th/id/R.70df7d7245b9b0d67ca19112b856d1b5?rik=gCRShfeb%2bouJng&pid=ImgRaw&r=0",
+      "carts": [
+        {
+          "cart": [
+            {
+              "id": "1",
+              "productId": 1,
+              "totalPrice": 100.000,
+              "quantity": 2
+            },
+            {
+              "id": "2",
+              "productId": 3,
+              "totalPrice": 500.000,
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "orderHistory": [
+        {
+          "orderId": "2",
+          "item": [
+            {
+              "cartId": "1"
+            }
+          ],
+          "orderDate": "2024-03-24"
+        },
+        {
+          "orderId": "1",
+          "item": [
+            {
+              "cartId": "1"
+            },
+            {
+              "cartId": "2"
+            }
+          ],
+          "orderDate": "2024-03-24"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hàng mới về"
+    },
+    {
+      "id": 2,
+      "name": "Ưa sáng"
+    },
+    {
+      "id": 3,
+      "name": "Ưa bóng"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Spider Plant",
+      "categoryId": 3,
+      "price": 250.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 2,
+      "name": "Panse Đen",
+      "categoryId": 1,
+      "price": 150.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 3,
+      "name": "Spider Plant",
+      "categoryId": 2,
+      "price": 350.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 4,
+      "name": "Pink Anthurium",
+      "categoryId": 1,
+      "price": 450.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    }
+  ],
+  "crops": [
+    {
+      "id": 1,
+      "name": "Plante Trắng",
+      "price": 100.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 2,
+      "name": "Plante Lemon Balm",
+      "price": 200.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 3,
+      "name": "Plante Đen",
+      "price": 300.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 4,
+      "name": "Plante Dove Grey",
+      "price": 100.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    }
+  ],
+  "accessory": [
+    {
+      "id": 1,
+      "name": "Bình tưới Sierra nhỏ",
+      "price": 100.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 2,
+      "name": "Bình tưới Sierra lớn",
+      "price": 200.000,
+      "size": "Lớn",
+      "plant": "Châu Phi",
+      "status": 120
+    },
+    {
+      "id": 3,
+      "name": "Bình xịt Xiaoda",
+      "price": 300.000,
+      "size": "Nhỏ",
+      "plant": "Châu Phi",
+      "status": 120
+    }
+  ]
+}
